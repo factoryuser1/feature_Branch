@@ -1,3 +1,4 @@
+
 //create html elements
 const createElement = (tag, className, text) => {
   const element = document.createElement(tag);
@@ -5,6 +6,7 @@ const createElement = (tag, className, text) => {
   element.innerText = text;
   return element;
 };
+
 
 const theBestFeature = ({
   name,
@@ -29,4 +31,3 @@ const simpleDivide = (x, y) => {
         return 'Try Again';
     }else { return (x / y)  }
 }
-
